@@ -1,0 +1,15 @@
+# Licensing and corresponding source
+
+GCam includes code covered by GNU GPL version 3 and GNU AGPL version 3. Combined distribution follows the applicable licenses and their section 13 compatibility provisions. Original file-level copyright and license notices are preserved; COPYING contains GPLv3 and licenses/ contains the AGPLv3 text and third-party notices. This notice does not replace or narrow any upstream license, and the whole distribution is not represented as having a single license.
+
+The release includes the corresponding GCam source snapshot and build instructions. The native Candle controller port and AGPL-covered model-manipulation adaptation are included in src/. The complete unmodified Candle 11.2 archive and its build/provenance notices are retained in vendor/ and in the runtime's licenses/Candle/. FreeCAD Adaptive2d source, original license and notice are retained under third_party/freecad_sparse and licenses/. OpenCAMLib 0.8 source is retained under research/opencamlib-master.
+
+The native OpenCASCADE dependency is OCCT 8.0.0, LGPL-2.1 with the upstream exception. The separate OCCT-V8_0_0-source.zip release asset is the official complete tag source, obtained from https://api.github.com/repos/Open-Cascade-SAS/OCCT/zipball/V8_0_0 . Preserve its licenses and build instructions. The SDK's limited src directory is not represented as complete source.
+
+Other libraries retain their own licenses, including GLFW, Dear ImGui, Clipper2, FreeCAD libarea, CPython, NumPy, VTK, oneTBB and jemalloc. See licenses/, Python distribution metadata and speech/THIRD_PARTY_NOTICES.md. SenseVoiceSmall model weights are licensed under the separate FunASR Model Open Source License Agreement v1.1, not under the code's GPL/AGPL or the SenseVoice code's MIT license. Preserve the model name, authors, source and full agreement.
+## Python geometry layer and additional notices
+The Python wheel is cadquery-ocp 7.9.3.1.1. Its corresponding OCP source tag is 7.9.3.1.1 (commit d69b064a3a604ebf245b1f3b14fb54c835a3a571), distributed under Apache-2.0. The tag environment specifies OCCT 7.9.3. OCP-7.9.3.1.1-source.zip and OCCT-V7_9_3-source.zip are provided alongside this release; this is separate from the main application's native OCCT8 dependency.
+
+FreeType DLL version information reports 2.12.1. Portions of this software are copyright © 2022 The FreeType Project (https://freetype.org). All rights reserved. This software is based in part on the work of the FreeType Team. See licenses/FreeType-FTL.txt and https://github.com/freetype/freetype/tree/VER-2-12-1 .
+
+This product uses FreeImage, developed by Floris van den Berg, Hervé Drolon and contributors. See licenses/FreeImage-Public-License.txt. Upstream source and the conda packaging recipes/patches are available at https://freeimage.sourceforge.io/ and https://github.com/conda-forge/freeimage-feedstock .
